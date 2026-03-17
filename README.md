@@ -201,12 +201,16 @@ success = run_correctness_test(SecurityLevel.LEVEL_128, num_vehicles=5)
 ### `baselines.py` — Baseline Comparison Engine
 
 Cost computation for all comparison schemes:
+
+**Original baselines (from BACAS):**
 - Yu et al. (2021) — IEEE Systems Journal
 - Dohare et al. (2022) — IEEE Trans. Industrial Informatics
 - Yang et al. (2022) — IEEE TIFS
 - Yang et al. (2022) — IEEE TGCN
 - Rajkumar et al. (2023) — Wireless Networks
 - Dai et al. (2022) — IEEE IoT Journal
+
+**New baselines (Reviewer 3 requested):**
 - Cobblah et al. (2024) — IEEE IoT Journal *(standalone, non-aggregate)*
 - Wang et al. (2025) — IEEE IoT Journal
 - Liu et al. (2025) — IEEE IoT Journal
